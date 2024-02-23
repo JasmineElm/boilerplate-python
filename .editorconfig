@@ -1,0 +1,29 @@
+# top-most EditorConfig file
+root = true
+
+[*]
+charset = utf-8
+indent_style = space
+indent_size = 2
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# Python files
+[*.py]
+max_line_length = 79
+indent_style = space
+indent_size = 4
+continuation_indent_size = 4
+trim_trailing_whitespace = true
+insert_final_newline = true
+block_comment = "#"
+line_comment = "#"
+spaces_around_operators = true
+
+# Markdown files
+[*.md]
+max_line_length = 
+trim_trailing_whitespace = true
+insert_final_newline = true
+
